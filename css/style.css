@@ -373,7 +373,11 @@ body {
 .portfolio_item_wrapper .row {
 	gap: 50px 0px;
 }
-
+.portfolio_item img{
+	height: 300px;
+	width: auto;
+	object-fit: contain;
+}
 .get_seventry_off {
 	width: 100%;
 }
@@ -1117,11 +1121,13 @@ a.popup_close {
 }
 
 img.ft-logo {
-	width: 150px;
+	width: 250px;
 }
 
 .logo img {
-	width: 150px;
+	width: 200px;
+	height: auto;
+	object-fit: contain;
 }
 
 .terms_condition {
@@ -1204,4 +1210,9 @@ img.ft-logo {
     transform: rotatey(180deg);
     left: -90px;
     top: 390px;
+}
+.faqs_img img{
+	width: 100%;
+	height: auto;
+	object-fit: contain;
 }
