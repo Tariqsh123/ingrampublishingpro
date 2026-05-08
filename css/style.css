@@ -1360,7 +1360,7 @@ img.ft-logo {
 .cta_wrapper {
     padding: 20px 10px;
 }
-.test-content {
+/* .test-content {
     margin: 0;
 }
 .row .justify-content-center .mt-4 .mobile-slider{
@@ -1369,7 +1369,7 @@ img.ft-logo {
 .test-content.text-center.border-0.testi-mid-box {
     background: transparent;
     margin-top: -100px;
-}
+} */
 .wrapper_faqs_columns .col-sm-5{
 	margin: 30px 0 0;
 }
@@ -1378,4 +1378,19 @@ img.ft-logo {
 }
 .copyright p {
     text-align: center;}
+.test-content {
+    margin: 0 !important;
+	margin: 20px 0 !important;
+}
+.three, .four {
+    position: relative;
+    top: 0;
+}
+.test-content.text-center.border-0.testi-mid-box {
+    padding: 0;
+    margin-top: 0 !important;
+}
+html{
+	overflow-x: hidden;
+}
 }
